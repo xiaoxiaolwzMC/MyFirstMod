@@ -5,6 +5,6 @@ import net.minecraft.item.ItemGroup;
 
 public class EmeraldIngot extends Item {
     public EmeraldIngot() {
-        super(new Properties().group(ItemGroup.MATERIALS));
+        super(new Properties().group(EmeraldItemGroup.MAIN));
     }
 }
