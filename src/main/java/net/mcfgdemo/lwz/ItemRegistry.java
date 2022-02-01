@@ -10,4 +10,5 @@ public class ItemRegistry {
     public static final RegistryObject<Item> emeraldIngot = ITEMS.register("emerald_ingot",EmeraldIngot::new);
     public static final RegistryObject<Item> emeraldApple = ITEMS.register("emerald_apple",EmeraldApple::new);
     public static final RegistryObject<Item> emeraldSword = ITEMS.register("emerald_sword",EmeraldSword::new);
+    public static final RegistryObject<Item> emeraldPickaxe = ITEMS.register("emerald_pickaxe",EmeraldPickaxe::new);
 }
